@@ -151,6 +151,11 @@ footer > h3#inst {
         text-align: center;
         margin-bottom: 40px;
     }
+
+    img#balanceada {
+        height: 300px;
+        
+    }
     
     footer { 
         text-align: center;
