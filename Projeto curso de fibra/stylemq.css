@@ -39,6 +39,10 @@ h2#nomeclatura {
     margin-top: 300px;
 }
 
+h2#balanceado {
+    margin-top: 300px;
+}
+
 ul {
 
     margin-left: 80px;
@@ -88,7 +92,7 @@ footer > h3#inst {
     
 }
 
-@media screen and (min-width: 992px) /*and (max-width: 1200px)*/ {
+@media screen and (min-width: 950px) /*and (max-width: 1200px)*/ {
 
     * {
         padding: 0px;
@@ -152,10 +156,7 @@ footer > h3#inst {
         margin-bottom: 40px;
     }
 
-    img#balanceada {
-        height: 300px;
-        
-    }
+    
     
     footer { 
         text-align: center;
@@ -170,5 +171,9 @@ footer > h3#inst {
         color: white;
     }
     
+    .tgrande {
+        display: block;
+    }
+
 }
 

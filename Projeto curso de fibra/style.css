@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+
+
+
+
+
+img#cabo18a36 {
+    height: 330px;
+}
+
+img#cabo48a144 {
+    height: 330px;
+}
+
+img#desbalanceada {
+    height: 330px;
+}
+
+img#balanceada {
+    height: 300px;
+    
+}
+
+.tgrande {
+    display: none;
+}
