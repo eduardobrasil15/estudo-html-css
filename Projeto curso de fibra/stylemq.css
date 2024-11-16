@@ -74,10 +74,6 @@ img#sfp {
     height: 300px;
 }
 
-img#tabela {
-    height: 520px;
-}
-
 footer {
     text-decoration: none;
     text-align: center;
@@ -154,6 +150,12 @@ footer > h3#inst {
         margin: auto;
         text-align: center;
         margin-bottom: 40px;
+    }
+
+    img#tabela {
+        text-align: center;
+        margin: auto;
+        height: 700px;
     }
 
     
