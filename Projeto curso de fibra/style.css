@@ -3,36 +3,28 @@
 
 /* Versão mobile first */
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0em;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
-}
 
-html {
-    height: 100vh;
-
-}
 
 body {
-    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 120, 228);
+    margin-top: 20px;
 }
 
-main {
-    background-color: rgb(255, 255, 255);
-    width: 90vw;
+body > section.comprimento {
+    background-color: white;
+    width: 70vw;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 10px;
-
+    border-radius: 15px;
+    padding-left: 20px;
+    text-align: justify;
+    text-align: center;
 }
 
 ul {
     padding-left: 150px;
-} 
+    text-align: justify;
+}
 
 h1 {
     font-size: 1.5em;
@@ -50,7 +42,6 @@ h2 {
     border-radius: 20px;
     background-color: lightskyblue;
     width: 350px;
-    text-align: center;
 }
 
 p {
@@ -62,22 +53,28 @@ p {
     margin-left: 50px;
     margin-right: 50px;
 }
-.tpequena {
-    margin-left: 90px;
-}
+
 .tcores {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     height: 200px;
 }
+
+img#conector {
+    text-align: center;
+}
+
+img#podeenaopode {
+    height: 100px;
+}
 img#idcabo {
-    margin-right: 60px;
+    margin-right: 100px;
     height: 300px;
 }
 img#tabela {
     text-align: center;
-    margin-left: 60px;
+    margin-left: 10px;
     height: 430px;
 }
 img#cabo18a36 {
@@ -87,16 +84,18 @@ img#cabo18a36 {
 img#cabo48a144 {
     height: 300px;
 }
-
 img#desbalanceada {
-    height: 330px;
+    height: 350px;
 }
 
 img#balanceada {
-    height: 300px;
-    
+    height: 300px; 
 }
 
 .tgrande {
     display: none;
+}
+
+img#direcao {
+    height: 200px;
 }
