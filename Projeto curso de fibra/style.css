@@ -2,7 +2,13 @@
 
 
 /* Versão mobile first */
-
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
 
 
 body {
@@ -95,7 +101,12 @@ img#balanceada {
 .tgrande {
     display: none;
 }
+img#imagegbic {
+    height: 250px;
+}
 
-img#direcao {
-    height: 200px;
+img#conector {
+    margin: auto;
+    margin-bottom: 30px;
+    height: 100px;
 }
