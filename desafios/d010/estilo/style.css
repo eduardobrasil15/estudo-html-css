@@ -15,7 +15,7 @@ cores utilizadas por ordem
 
 @font-face {
   font-family: "Android";
-  src: url('/estilo/fontes/idroid.otf') format('opentype');
+  src: url('../estilo/fontes/idroid.otf') format('opentype');
   font-weight: normal;
 }
 
@@ -32,19 +32,29 @@ cores utilizadas por ordem
       --fonte-android: 'Android', cursive;
   }
 
+  *{
+    margin: 0px;
+    padding: 0px;
+
+  }
+  
+
 
 body {
-  background-color: var(--cor0)
-  font-family: var(--fonte-padrao);
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao); 
+
+
 }
 
 header {
-  background-color: var(--cor4)
+  background-color: var(--cor4);
+  font-family: var(--fonte-destaque);
 }
 
 header > h1 {
   color: white
-  font-family: var(--fonte-destaque)
+  font-family: var(--fonte-destaque);
 }
 
 header > p {
@@ -56,6 +66,7 @@ nav {
 }
 
 main {
+  background-color: white;
 
 
 }
@@ -68,5 +79,5 @@ main h1 {
 main h2 {
   font-family: var(--fonte-android);
 }
-
+-
 
