@@ -96,5 +96,7 @@ main img {
 
 main img.pequena {
   width: 50%;
+  display: block;
+  margin: auto;
 }
 
